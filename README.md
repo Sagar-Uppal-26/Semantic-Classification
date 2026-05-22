@@ -19,12 +19,10 @@ An end-to-end Natural Language Processing (NLP) pipeline that classifies complex
    ```bash
    git clone [https://github.com/your-username/Semantic-Movie-Review-Classification.git](https://github.com/your-username/Semantic-Movie-Review-Classification.git)
    cd Semantic-Movie-Review-Classification
-Install the required dependencies:
-
-Bash
-pip install torch transformers pandas scikit-learn jupyter
-Open the Jupyter Notebook to run the training pipeline or test the inference cells:
-
-Bash
-jupyter notebook movie_sentiment_distilbert.ipynb
+2. Install the required dependencies:
+   ```bash
+   pip install torch transformers pandas scikit-learn jupyter
+3. Open the Jupyter Notebook to run the training pipeline or test the inference cells:
+   ```bash
+   jupyter notebook movie_sentiment_distilbert.ipynb
 (Note: Ensure you have a GPU environment like Google Colab enabled for faster training).
